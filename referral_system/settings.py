@@ -150,10 +150,6 @@ SIMPLE_JWT = {
    'ACCESS_TOKEN_LIFETIME': timedelta(days=1),
    'AUTH_HEADER_TYPES': ('Bearer',),
 }
-"""{
-    "refresh": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoicmVmcmVzaCIsImV4cCI6MTcyODkzMzY1MCwianRpIjoiZDNiODFhZDU3MTY3NGIxOGFlZDk4NDkwZjNhOGI1M2YiLCJ1c2VyX2lkIjoxfQ.VmNGUP5u8IcedTWjiAvxqRZl2Jsi3GmW3PBm4iaw4kI",
-    "access": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzI4OTMzNjUwLCJqdGkiOiIyMTliZjIyYjg2OWM0YzQxYTM0YmIxMmVkMGZkYWRiMSIsInVzZXJfaWQiOjF9.ys-cEHN_VfYs4adMCjvDDfDWvvWtt20VekAMewix1oA"
-}
-"""
+
 EMAIL_BACKEND = 'django.core.mail.backends.filebased.EmailBackend'
 EMAIL_FILE_PATH = BASE_DIR / 'sent_emails'
